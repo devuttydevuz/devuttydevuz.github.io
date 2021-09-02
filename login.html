@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+ 
+<title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="transaction1.js"></script>
+
+    <style>
+      /* style for zoom box when mouse hover */
+      * {
+        box-sizing: border-box;
+      }
+      
+      .zoom {
+        transition: transform .2s;
+        width: 100px;                          
+        height: 100px;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+      }  
+      /*end of style tag */
+    </style>
+
+
+</head>
+  <body style="background-image: url(assets/img/login1.jpeg);"><!--background image-->
+  <div class="nav"><!--top navbar-->
+    <a class="active" href="login.html"> Home</a>
+      <div class="nav-right">
+       <a href="#About us">About Us</a>
+        <a href="#Help">Help</a>
+     </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <marquee scrolldelay=100 direction = "right" loop="" ><!--marquee is used for animate text-->
+          <h1 style="color: blue; font-family:fantasy;"> SARANYA'S BANK</h1>
+        </marquee>
+     </div>
+    </div>
+  </div>
+    
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-10">
+        <div class="zoom">
+      <br><br>
+          <form name="logform" align="center">
+      <br><br>
+            <table border="0"  cellpadding="10" cellspacing="10"><!--table tag-->
+               <tr>
+                   <td style="background-color:goldenrod"></td>
+                   <td style="background-color:gray"> </td>
+               </tr>
+              
+               <tr>
+                   <td align="center" style="background-color:goldenrod">
+                       <i class="fa fa-user icon" style="color:black; ">Account No</i><!--user acconut number-->
+                   </td>
+                    <td style="background-color:gray">
+                       <input type="text" name="txtaccno" id="txtaccno" autocomplete="off" placeholder=".........Enter Account no......." pattern="[A-za-Z. ]{3,20}" required><!--user account numer input-->
+                    </td>
+               </tr>
+    
+               <tr>
+                    <td align="center" style="background-color:goldenrod">
+                        <i class="fa fa-key icon" style="color: black;">PASSWORD</i><!--user password-->
+                    </td>
+                    <td style="background-color:gray">
+                         <input type="password" name="txtpassword" id="txtpassword" autocomplete="off" placeholder=".........Enter password......." pattern="[A-za-Z. 0-9]{3,20}" required><!--user account numer input-->
+                    </td>
+               </tr>
+
+               <tr>
+                    <td style="background-color:goldenrod"></td>
+                    <td style="background-color:gray"> </td>
+               </tr>
+
+               <tr>
+                    <td align="center" style="background-color:goldenrod"></td>
+                    <td style="background-color:gray">
+                       <button type="button" class="btn btn-primary active btn-sm btn-block" onclick="Bank.login()">LOGIN</button><!--login button-->
+                    </td>
+               </tr>
+               <tr>
+                   <td style="background-color:goldenrod"></td>
+                   <td style="background-color:gray">
+                      <button type="button" onClick="parent.location='registration.html'" class="btn btn-primary btn-sm btn-block">REGISTER</button><!--registration button-->
+                   </td>
+               </tr> 
+
+               <tr>
+                   <td>
+
+
+                   </td>
+               </tr>
+
+               <tr>
+                   <td colspan="2" align="center">
+                      <a href="Forgotpassword.html">Forgot your password?</a>
+                   </td>
+               </tr>
+    
+            </table><!--end of table tag-->
+         </form>
+        </div> 
+      </div>
+   </div>
+  </div>
+</body>
+</html>

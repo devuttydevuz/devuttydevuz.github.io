@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="banking_home.css">
+<title>Deposite</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="transaction1.js"></script>
+</head>
+<body style="background-image: url('assets/img/savings1.jpg');">
+    <div class="nav">  <!--top navbar-->
+        <a href="banking_home.html">Previos</a>     
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <img src="assets/img/savings1.jpg" align="left" width="570" height="320"><!--set a background image-->
+
+            </div>
+            <div class="col-sm-6">
+               
+            <form name="depform" align="center">
+            <table border="0"  cellpadding="10" cellspacing="10"><!--table tag-->
+                <tr>
+                    <td colspan="2" style="background-color:orange"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:orange"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:orange"></td>
+                </tr>
+                <tr>
+                    <td style="background-color:orange">Acc no</td><!--user account no-->
+                    <td style="background-color:pink"><input type="text" name="acno" id="acno" value=""></td><!--input account number-->
+               </tr>
+                <tr>
+                    <td style="background-color:orange">Pin</td><!--user pin number-->
+                    <td style="background-color:pink"><input type="text" name="pin" id="pin" value=""></td><!--input pin number-->
+                </tr>
+                <tr>
+                    <td style="background-color:orange">Amount</td><!--deposit amount-->
+                    <td style="background-color:pink"><input type="text" name="amt" id="amt" value=""></td><!--input deposit amount-->
+                </tr>
+                 <tr>
+                    <td colspan="2" style="background-color:orange"> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="background-color:orange">
+                    <button type="button" style="background-color:pink" onclick="Bank.deposit()">Deposit</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:orange"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:orange"></td>
+                </tr>
+            </table>
+             </form>
+         </div>
+        </div>
+    </div>
+</body>
+</html>

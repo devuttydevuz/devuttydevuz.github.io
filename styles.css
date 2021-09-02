@@ -1,0 +1,39 @@
+.icon {
+  padding: 10px;
+  background: orange;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.nav {
+  overflow: hidden;
+  
+  
+}
+
+.nav a {
+  float: left;
+  color:goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:hover {
+ 
+  color:gray;
+}
+
+.nav a.active {
+  
+  color: orange;
+}
+
+.nav-right
+{
+float:right;
+}
+

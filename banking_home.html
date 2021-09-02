@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="banking_home.css">
+<title>User dashboard</title>
+<style>
+  .sidenav {
+    /*style for side navbar */
+              height: 100%;
+              width: 160px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color:black;
+              overflow-x: hidden;
+              padding-top: 20px;
+            }
+
+  .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: gray;
+                display: block;
+              }
+
+  .sidenav a:hover {
+                      color: white;
+                    }
+  .main {
+          margin-left: 160px; 
+          font-size: 28px; 
+          padding: 0px 10px;
+        }
+  
+  @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+/* end of style tag*/
+</style>
+</head>  
+<body style="background-image: url(assets/img/pigg.jpg);">
+   
+  <div class="sidenav"><!--side navbar-->
+    
+    <br><br><br><br><br>
+
+        <a href="deposite.html">Deposit</a><!--deposit page link-->
+      <br>
+        <a href="withdraw.html">Withdraw</a><!--withdraw page link-->
+      <br>
+        <a href="#">Balance</a>
+      <br>
+        <a href="#">Manage account</a>
+      <br>
+        <a href="login.html">Logout</a>
+  </div>
+  <div class="main">
+    <div class="nav">  
+      <a class="active" href="banking_home.html">SB</a><!--top navbar-->
+    </div>
+</body> 
+</html>

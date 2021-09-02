@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="registration.css">
+  
+<title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="transaction.js"></script>
+</head>
+<body>
+    <div class="nav">  
+        <a href="login.html">Previos</a><!--top navbar-->
+    </div>
+    <div class="container">
+        <br><br><br><br><br><br>
+        <h3 align="center" style="color: blue;"> REGISTERATION</h3>
+    </div>
+
+        <br>
+
+        <div class="container">
+            <div id="example">
+                <br>
+            <form name="regform"  align="center" action="login.html"><!--form tag-->
+               
+            <div class="form-group">
+                <p><label for="name" style=" font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Name: </label><!--user name-->
+                <input type="text" name="name" id="name" value=""  placeholder="...........Enter name.............."/></p><!--user name input-->
+            </div>
+            <div class="form-group">
+                <p><label for="accno" style=" font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Account number:</label><!--Account number-->
+                <input type="text" name="accno" id="accno" value=""  placeholder="..Enter Account number................"/><!--Account number input-->
+            </div>
+
+            <div class="form-group">
+                <p><label for="pin" style=" font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Pin number:</label><!--pin number-->
+                <input type="text" name="pin" id="pin" value=""  placeholder=".......Enter Pin number................"/><!--pin number input-->
+            </div>
+
+            <div class="form-group" >
+                <p><label for="password" style=" font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Password:</label><!--user password-->
+                <input type="text" name="password" id="password" value="" autocomplete="off" pattern="[A-Za-z0-9]{8,10}"  required placeholder="allows 8 to 20 charachters"/><!--user password input-->
+                    
+            </div>
+                <p align="center"> <button type="submit" class="btn btn-primary active">Submit</button><!--submit button-->
+                <button type="reset" class="btn btn-primary">cancel</button><!--cancel or reset button-->
+            </form><!--end of form tag-->
+            </div>
+    </div>
+</body>
+</html>

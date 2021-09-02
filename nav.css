@@ -1,0 +1,31 @@
+.nav {
+  overflow: hidden;
+  
+  
+}
+
+.nav a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:hover {
+ 
+  color: black;
+}
+
+.nav a.active {
+  
+  color: orange;
+}
+
+.nav-right
+{
+float:right;
+}
+
+
